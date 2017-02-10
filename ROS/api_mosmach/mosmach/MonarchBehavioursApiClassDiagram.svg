@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg height="948" version="1.1" width="1252" xmlns="http://www.w3.org/2000/svg">
+<polygon fill="#ffffff" points="14,14 388,14 388,37 437,37 437,237 14,237 14,14" stroke="#ffffff" stroke-width="1"/>
+<rect fill="none" height="23" stroke="#000000" stroke-width="1" width="374" x="14" y="14"/>
+<text font-family="Dialog" font-size="12" x="19" y="27">
+smach_ros</text>
+<rect fill="none" height="200" stroke="#000000" stroke-width="1" width="423" x="14" y="37"/>
+<rect fill="#ffffff" height="97" stroke="#ffffff" stroke-width="1" width="207" x="167" y="109"/>
+<rect fill="none" height="97" stroke="#000000" stroke-width="1" width="207" x="167" y="109"/>
+<text font-family="Dialog" font-size="12" x="216" y="122">
+smach_ros::State</text>
+<rect fill="#000000" height="1" stroke="#000000" stroke-width="1" width="207" x="167" y="132"/>
+<rect fill="#000000" height="1" stroke="#000000" stroke-width="1" width="207" x="167" y="159"/>
+<text font-family="Dialog" font-size="12" x="171" y="173">
+execute(self,userdata)</text>
+<text font-family="Dialog" font-size="12" x="171" y="189">
+request_preempt(self)</text>
+<polygon fill="#ffffff" points="14,254 1188,254 1188,277 1237,277 1237,933 14,933 14,254" stroke="#ffffff" stroke-width="1"/>
+<rect fill="none" height="23" stroke="#000000" stroke-width="1" width="1174" x="14" y="254"/>
+<text font-family="Dialog" font-size="12" x="19" y="267">
+monarch_behaviour</text>
+<rect fill="none" height="656" stroke="#000000" stroke-width="1" width="1223" x="14" y="277"/>
+<rect fill="#ffffff" height="88" stroke="#ffffff" stroke-width="1" width="375" x="142" y="342"/>
+<rect fill="none" height="88" stroke="#000000" stroke-width="1" width="375" x="142" y="342"/>
+<text font-family="Dialog" font-size="12" x="220" y="355">
+monarch_behaviour::MonarchState</text>
+<rect fill="#000000" height="1" stroke="#000000" stroke-width="1" width="375" x="142" y="365"/>
+<text font-family="Dialog" font-size="12" x="146" y="379">
+_action_list : Integer</text>
+<rect fill="#000000" height="1" stroke="#000000" stroke-width="1" width="375" x="142" y="389"/>
+<text font-family="Dialog" font-size="12" x="146" y="403">
+add_action(self,action : StateAction)</text>
+<text font-family="Dialog" font-size="12" x="146" y="419">
+add_change_condition(self,cc : ChangeCondition)</text>
+<rect fill="#ffffff" height="69" stroke="#ffffff" stroke-width="1" width="268" x="910" y="374"/>
+<rect fill="none" height="69" stroke="#000000" stroke-width="1" width="268" x="910" y="374"/>
+<text font-family="Dialog" font-size="12" x="942" y="387">
+monarch_behaviour::StateAction</text>
+<rect fill="#000000" height="1" stroke="#000000" stroke-width="1" width="268" x="910" y="397"/>
+<rect fill="#000000" height="1" stroke="#000000" stroke-width="1" width="268" x="910" y="418"/>
+<text font-family="Dialog" font-size="12" x="914" y="432">
+execute(self)</text>
+<polyline fill="none" points="222,342 222,205" stroke="#000000" stroke-width="1"/>
+<polygon fill="#ffffff" points="222,205 229,217 215,217" stroke="#ffffff" stroke-width="1"/>
+<polygon fill="none" points="222,205 229,217 215,217" stroke="#000000" stroke-width="1"/>
+<rect fill="#ffffff" height="69" stroke="#ffffff" stroke-width="1" width="217" x="758" y="630"/>
+<rect fill="none" height="69" stroke="#000000" stroke-width="1" width="217" x="758" y="630"/>
+<text font-family="Dialog" font-size="12" x="812" y="643">
+NavMoveToAction</text>
+<rect fill="#000000" height="1" stroke="#000000" stroke-width="1" width="217" x="758" y="653"/>
+<rect fill="#000000" height="1" stroke="#000000" stroke-width="1" width="217" x="758" y="674"/>
+<text font-family="Dialog" font-size="12" x="762" y="688">
+__init__(self,x,y,theta)</text>
+<polyline fill="none" points="942,630 942,442" stroke="#000000" stroke-width="1"/>
+<polygon fill="#ffffff" points="942,442 949,454 935,454" stroke="#ffffff" stroke-width="1"/>
+<polygon fill="none" points="942,442 949,454 935,454" stroke="#000000" stroke-width="1"/>
+<rect fill="#ffffff" height="67" stroke="#ffffff" stroke-width="1" width="89" x="958" y="726"/>
+<rect fill="none" height="67" stroke="#000000" stroke-width="1" width="89" x="958" y="726"/>
+<text font-family="Dialog" font-size="12" x="963" y="739">
+RunCaAction</text>
+<rect fill="#000000" height="1" stroke="#000000" stroke-width="1" width="89" x="958" y="749"/>
+<rect fill="#000000" height="1" stroke="#000000" stroke-width="1" width="89" x="958" y="770"/>
+<polyline fill="none" points="1006,726 1006,442" stroke="#000000" stroke-width="1"/>
+<polygon fill="#ffffff" points="1006,442 1013,454 999,454" stroke="#ffffff" stroke-width="1"/>
+<polygon fill="none" points="1006,442 1013,454 999,454" stroke="#000000" stroke-width="1"/>
+<rect fill="#ffffff" height="67" stroke="#ffffff" stroke-width="1" width="117" x="222" y="550"/>
+<rect fill="none" height="67" stroke="#000000" stroke-width="1" width="117" x="222" y="550"/>
+<text font-family="Dialog" font-size="12" font-style="italic" x="227" y="563">
+ChangeCondition</text>
+<rect fill="#000000" height="1" stroke="#000000" stroke-width="1" width="117" x="222" y="573"/>
+<rect fill="#000000" height="1" stroke="#000000" stroke-width="1" width="117" x="222" y="594"/>
+<rect fill="#ffffff" height="67" stroke="#ffffff" stroke-width="1" width="96" x="126" y="702"/>
+<rect fill="none" height="67" stroke="#000000" stroke-width="1" width="96" x="126" y="702"/>
+<text font-family="Dialog" font-size="12" x="131" y="715">
+SamCondition</text>
+<rect fill="#000000" height="1" stroke="#000000" stroke-width="1" width="96" x="126" y="725"/>
+<rect fill="#000000" height="1" stroke="#000000" stroke-width="1" width="96" x="126" y="746"/>
+<polyline fill="none" points="221,702 222,616" stroke="#000000" stroke-width="1"/>
+<polygon fill="#ffffff" points="222,616 228,628 214,627" stroke="#ffffff" stroke-width="1"/>
+<polygon fill="none" points="222,616 228,628 214,627" stroke="#000000" stroke-width="1"/>
+<rect fill="#ffffff" height="67" stroke="#ffffff" stroke-width="1" width="102" x="190" y="790"/>
+<rect fill="none" height="67" stroke="#000000" stroke-width="1" width="102" x="190" y="790"/>
+<text font-family="Dialog" font-size="12" x="195" y="803">
+TopicCondition</text>
+<rect fill="#000000" height="1" stroke="#000000" stroke-width="1" width="102" x="190" y="813"/>
+<rect fill="#000000" height="1" stroke="#000000" stroke-width="1" width="102" x="190" y="834"/>
+<polyline fill="none" points="251,790 251,616" stroke="#000000" stroke-width="1"/>
+<polygon fill="#ffffff" points="251,616 258,628 244,628" stroke="#ffffff" stroke-width="1"/>
+<polygon fill="none" points="251,616 258,628 244,628" stroke="#000000" stroke-width="1"/>
+</svg>
